@@ -1,0 +1,20 @@
+{
+  "name": "discordjs-v13-yt-tutorial",
+  "version": "1.0.0",
+  "description": "A bot to teach yt",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discordjsbot"
+  ],
+  "author": "Msks TanmaY",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.0.1",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
