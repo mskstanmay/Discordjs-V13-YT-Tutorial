@@ -2,10 +2,10 @@
   "name": "discordjs-v13-yt-tutorial",
   "version": "1.0.0",
   "description": "A bot to teach yt",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "keywords": [
     "discordjsbot"
