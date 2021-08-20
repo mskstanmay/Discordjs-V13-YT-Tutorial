@@ -26,4 +26,4 @@ client.on("ready", () => {
 });
 
 //Login.
-client.login("ODc0MjMyMzQ0MzM1MjUzNTM0.YRD-UQ.v5eyBbupUAM_N6Dpy0rz0LIKeJA");
+client.login("TOKEN");
