@@ -17,13 +17,10 @@ module.exports = {
       client.events.set(event.name, event);
     });
 
-    console.log(client.events)
     client.events.forEach(async (event) => {
-      console.log(event)
       if (event.name == "ready") event.run(client);
       else{
       client.on(event.name, (...args) => {
-        console.log(event.name)
         event.run(client, ...args);
       });}
     })
